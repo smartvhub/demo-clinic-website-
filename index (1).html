@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AV | Aspire & Victory</title>
+  <meta name="description" content="Websites and practical digital solutions for growing businesses.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0d12;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1080px, 90%); margin: auto; }
+    header {
+      padding: 22px 0;
+      border-bottom: 1px solid #242731;
+    }
+    nav {
+      display: flex; align-items: center;
+      justify-content: space-between; gap: 15px;
+    }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: 2px; }
+    .logo span { color: #c5a46d; }
+    .nav-link { color: #c5c7d0; font-size: 14px; }
+    .hero { padding: 85px 0 75px; }
+    .tag {
+      display: inline-block; color: #d9bc8a;
+      border: 1px solid #54452f; border-radius: 30px;
+      padding: 6px 12px; font-size: 12px;
+      letter-spacing: 1px; margin-bottom: 24px;
+    }
+    h1 {
+      font-size: clamp(38px, 8vw, 70px);
+      line-height: 1.08; max-width: 800px;
+      letter-spacing: -2px;
+    }
+    h1 span { color: #c5a46d; }
+    .intro { color: #b6bac6; max-width: 590px; margin: 24px 0; }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .btn {
+      display: inline-block; padding: 13px 20px;
+      border-radius: 7px; font-weight: 700; font-size: 14px;
+    }
+    .primary { background: #c5a46d; color: #111; }
+    .secondary { border: 1px solid #444957; }
+    section { padding: 55px 0; }
+    .eyebrow { color: #c5a46d; text-transform: uppercase; letter-spacing: 2px; font-size: 12px; }
+    h2 { font-size: clamp(27px, 5vw, 40px); margin: 10px 0 14px; }
+    .muted { color: #aeb3c0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 28px; }
+    .card {
+      background: #12151d; border: 1px solid #282c37;
+      padding: 24px; border-radius: 12px;
+    }
+    .number { color: #c5a46d; font-size: 13px; }
+    .card h3 { margin: 12px 0 8px; font-size: 20px; }
+    .card p { color: #aeb3c0; font-size: 14px; }
+    .project {
+      border: 1px solid #303440; border-radius: 12px;
+      padding: 25px; background: linear-gradient(140deg, #191d28, #101219);
+    }
+    .project h3 { margin: 12px 0; font-size: 22px; }
+    .project a { display: inline-block; margin-top: 18px; color: #d9bc8a; font-weight: bold; }
+    .contact {
+      background: #151820; border: 1px solid #303440;
+      border-radius: 14px; padding: 30px;
+    }
+    footer { border-top: 1px solid #242731; padding: 24px 0; color: #999eac; font-size: 13px; }
+    @media (max-width: 480px) {
+      .hero { padding-top: 60px; }
+      .logo { font-size: 18px; }
+      .nav-link { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="logo" href="#home">AV<span>.</span></a>
+      <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#work">Our Work</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="tag">ASPIRE & VICTORY</div>
+      <h1>Digital solutions for <span>ambitious businesses.</span></h1>
+      <p class="intro">
+        We help businesses build a stronger online presence with
+        modern websites and practical digital solutions.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="#work">Explore Our Work ↗</a>
+        <a class="btn secondary" href="#contact">Let's Talk</a>
+      </div>
+    </section>
+
+    <section class="wrap" id="services">
+      <p class="eyebrow">What we do</p>
+      <h2>Simple solutions. Real purpose.</h2>
+      <p class="muted">Built around what a business actually needs.</p>
+      <div class="grid">
+        <article class="card">
+          <span class="number">01 / WEB</span>
+          <h3>Business Websites</h3>
+          <p>Modern, mobile-friendly websites that explain your services and help customers find you online.</p>
+        </article>
+        <article class="card">
+          <span class="number">02 / WORKFLOW</span>
+          <h3>Business Automation</h3>
+          <p>Explore ways to simplify repetitive tasks, organize enquiries and save valuable time.</p>
+        </article>
+        <article class="card">
+          <span class="number">03 / AI</span>
+          <h3>Practical AI Solutions</h3>
+          <p>Discover useful ways to apply AI to everyday business challenges.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="work">
+      <p class="eyebrow">Selected work</p>
+      <h2>Projects & experiments.</h2>
+      <p class="muted">Concept projects created to demonstrate design and functionality.</p>
+      <div class="grid">
+        <article class="project">
+          <span class="number">CONCEPT PROJECT 01</span>
+          <h3>Healthcare Website</h3>
+          <p class="muted">A planned premium website concept for a fictional hospital, focused on clear information and easy navigation.</p>
+          <a href="#contact">Project details coming soon ↗</a>
+        </article>
+        <article class="project">
+          <span class="number">CONCEPT PROJECT 02</span>
+          <h3>Local Business Website</h3>
+          <p class="muted">A planned website concept to help local businesses present their services and contact details.</p>
+          <a href="#contact">Project details coming soon ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="contact">
+      <div class="contact">
+        <p class="eyebrow">Start a conversation</p>
+        <h2>Have a business challenge?</h2>
+        <p class="muted">Tell us what you're trying to improve. Let's explore a practical solution together.</p>
+        <div class="buttons">
+          <a class="btn primary" href="mailto:hello@example.com?subject=Business%20Enquiry">Email Us ↗</a>
+        </div>
+        <p class="muted" style="font-size:12px;margin-top:15px">
+          Demo portfolio. Replace the example email before publishing for clients.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 AV — Aspire & Victory. Portfolio in progress.</div>
+  </footer>
+</body>
+  </html>
+  
